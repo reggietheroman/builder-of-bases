@@ -20,6 +20,7 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      COC_API_KEY: process.env.COC_API_KEY
     }
   };
 
